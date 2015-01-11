@@ -1,0 +1,73 @@
+
+Apple
+a fruit
+red
+food
+round
+common
+
+Orange
+a fruit
+orange
+food
+round
+common
+
+Strawberry
+a fruit
+food
+red
+common
+
+Steak
+meat
+food
+expensive
+chewy
+
+Chicken
+meat
+food
+a bird
+common
+
+Lamb
+food
+meat
+
+Greece
+a place
+a country
+in Europe
+home to ancient gods
+
+Canada
+a place
+a country
+in North America
+run by a prime minister
+English speaking
+French speaking
+
+The USA
+a place
+a country
+in North America
+run by a president
+English speaking
+
+Mexico
+a place
+a country
+in North America
+Spanish speaking
+tropical
+around the Caribbean
+
+Jamaica
+a place
+a country
+an island
+in the Caribbean
+in North America
+
