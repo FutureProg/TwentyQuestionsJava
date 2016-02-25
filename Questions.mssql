@@ -1,0 +1,74 @@
+-- phpMyAdmin SQL Dump
+-- version 4.2.11
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Feb 25, 2016 at 03:51 PM
+-- Server version: 5.6.21
+-- PHP Version: 5.6.3
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `20QuestionsDB`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Questions`
+--
+
+CREATE TABLE IF NOT EXISTS `Questions` (
+`id` int(11) NOT NULL,
+  `Object` text NOT NULL,
+  `Attributes` text NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `Questions`
+--
+
+INSERT INTO `Questions` (`id`, `Object`, `Attributes`) VALUES
+(2, 'Apple', 'a fruit,red,round,common'),
+(3, 'Orange', 'a fruit,orange,food,round,common'),
+(4, 'Strawberry', 'a fruit,food,red,common'),
+(5, 'Steak', 'meat,food,expensive,chewy'),
+(6, 'Lamb', 'food,meat'),
+(7, 'Chicken', 'meat,food,a bird,common'),
+(8, 'Greece', 'a place,a country,in Europe,home to ancient gods'),
+(9, 'Canada', 'a place,a country,in North America,run by a prime minister,English speaking,French speaking '),
+(10, 'The USA', 'a place,a country,in North America,run by a president,English speaking'),
+(11, 'Mexico', 'a place,a country,in North America,Spanish speaking,tropical,around the Caribbean'),
+(12, 'Jamaica', 'a place,a country,an island,in the Caribbean,in North America'),
+(13, 'Fish', 'common,food,meat,in water');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `Questions`
+--
+ALTER TABLE `Questions`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `Questions`
+--
+ALTER TABLE `Questions`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=14;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
